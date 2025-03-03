@@ -1,7 +1,9 @@
-package Model;
+package com.team.webapp.model;
 
 import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
+@Document(collection = "item")
 public class Item {
 
 	@Id
